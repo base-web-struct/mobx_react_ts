@@ -7,7 +7,7 @@ import About from '../pages/about'
 import Home from '../pages/home'
 
 const browserHistory = createBrowserHistory()
-const routerStore =  new RouterStore()
+const routerStore = new RouterStore()
 const history = syncHistoryWithStore(browserHistory, routerStore)
 
 export default class AppRouter extends React.Component<{}, {}> {

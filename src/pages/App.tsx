@@ -2,7 +2,7 @@ import * as React from 'react'
 
 class App extends React.Component<{}, {}> {
 
-  public renderDevTool() {
+  public renderDevTool () {
     if (process.env.NODE_ENV !== 'production') {
       const DevTools = require('mobx-react-devtools').default
       return (<DevTools />)
@@ -10,7 +10,7 @@ class App extends React.Component<{}, {}> {
     return null
   }
 
-  public render() {
+  public render () {
     return (
       <div className="main">
         {this.props.children}

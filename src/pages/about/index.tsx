@@ -1,8 +1,7 @@
 import { inject, observer } from 'mobx-react'
 import * as React from 'react'
 import { RouteComponentProps } from 'react-router'
-import { HomeStore } from 'src/stores/modules/home';
-// import * as StoreClass from '../../stores'
+import { HomeStore } from 'src/stores/modules/home'
 
 export interface AboutProps extends RouteComponentProps<{}> {
   home: HomeStore

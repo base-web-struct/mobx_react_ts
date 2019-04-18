@@ -19,7 +19,6 @@
     "react": "^16.8.6",
     "react-dev-utils": "^5.0.2",
     "react-dom": "^16.8.6",
-    "react-mobx": "^0.0.4",
     "react-router-dom": "^5.0.0"
   },
   "scripts": {
@@ -63,7 +62,7 @@
     "ts-loader": "^2.3.7",
     "tsconfig-paths-webpack-plugin": "^2.0.0",
     "tslint": "^5.7.0",
-    "tslint-config-prettier": "^1.10.0",
+    "tslint-config-standard": "^8.0.1",
     "tslint-react": "^3.2.0",
     "typescript": "^3.4.3",
     "uglifyjs-webpack-plugin": "1.2.5",

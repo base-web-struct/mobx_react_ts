@@ -1,7 +1,7 @@
 import { action, observable } from 'mobx'
 
 export class HomeStore {
-  @observable private id: string;
+  @observable private id: string
 
   constructor () {
     this.setId('2')
